@@ -10,4 +10,8 @@ class App < Sinatra::Base
   get '/name' do
     @name = Name.all
   end
+  
+  get '/hometown' do 
+    @hometown
+  end
 end
